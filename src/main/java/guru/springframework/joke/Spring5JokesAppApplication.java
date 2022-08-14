@@ -1,5 +1,7 @@
-package guru.springframework.joke.spring5jokesapp;
+package guru.springframework.joke;
 
+import guru.springframework.joke.services.JokeService;
+import guru.springframework.joke.services.JokeServiceImpl;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -8,6 +10,7 @@ public class Spring5JokesAppApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(Spring5JokesAppApplication.class, args);
+
 	}
 
 }
